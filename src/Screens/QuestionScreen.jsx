@@ -93,7 +93,7 @@ const QuestionScreen = () => {
     return (
       <div style={containerStyles}>
         <img
-          src="public/ISFP.png"
+          src="ISFP.png"
           alt="Your Image"
           style={imageStyles}
           onLoad={() => setIsImageLoaded(true)}
