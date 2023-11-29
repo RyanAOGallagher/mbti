@@ -6,11 +6,9 @@ function CopyLinkButton() {
   const copyToClipboard = () => {
     navigator.clipboard.writeText(linkToCopy)
       .then(() => {
-        // You can handle the success case
         alert('Link copied to clipboard!');
       })
       .catch(err => {
-        // You can handle the error case
         console.error('Failed to copy: ', err);
       });
   };
