@@ -1,5 +1,5 @@
 import React from 'react'
-import LanguagesList from '../components/LanguagesList';
+import LanguagesList from '../Components/LanguagesList';
 import { Link } from 'react-router-dom';
 const languages = [
     { id: 1, name: '한국어' },
