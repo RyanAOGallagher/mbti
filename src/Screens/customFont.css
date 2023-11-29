@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./PoorStory-Regular.ttf') format('truetype');
+    /* You can also include font-weight and font-style properties if needed */
+  }
