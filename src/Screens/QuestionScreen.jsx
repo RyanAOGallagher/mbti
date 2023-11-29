@@ -22,13 +22,14 @@ const QuestionScreen = () => {
     fontSize: '9vw',
     fontFamily: 'MyFont, sans-serif',
     textAlign: 'center',
+    margin:0
   };
 
   const questionStyles = {
     fontSize: '10vw',
     fontFamily: 'MyFont, sans-serif',
     textAlign: 'center',
- 
+    margin:'0.5vh'
 
   };
 
