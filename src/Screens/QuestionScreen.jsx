@@ -19,14 +19,14 @@ const QuestionScreen = () => {
   const text = languageText[language] || 'Language not supported';
     
   const textStyles = {
-    fontSize: '2.3vh',
+    fontSize: '4.3vw',
     fontFamily: 'MyFont, sans-serif',
     textAlign: 'center',
     margin: '8px 0', // Add some spacing between text elements
   };
 
   const questionStyles = {
-    fontSize: '3vh',
+    fontSize: '3vw',
     fontFamily: 'MyFont, sans-serif',
     textAlign: 'center',
     margin: '8px 0', // Add some spacing between text elements
@@ -47,7 +47,7 @@ const QuestionScreen = () => {
 
   
   const titleStyles = {
-    fontSize: '4vh',
+    fontSize: '9vw',
     fontFamily: 'MyFont, sans-serif',
     textAlign: 'center',
   };
