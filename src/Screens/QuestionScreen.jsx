@@ -34,6 +34,12 @@ const QuestionScreen = () => {
   };
 
 
+  const answerContainerStyles = {
+
+    border: '5px solid red'
+  };
+
+
   const answerStyles = {
     fontSize: '7.5vw',
     fontFamily: 'MyFont, sans-serif',
@@ -41,6 +47,8 @@ const QuestionScreen = () => {
     margin: '2%', 
     border: '5px solid black'
   };
+
+
 
 
   const textStyles = {
@@ -120,7 +128,7 @@ const QuestionScreen = () => {
       <div>
           <p style={questionNumberStyles}> {currentQuestion + 1}/{questions.length}</p>
           <p style={questionStyles}>{questions[currentQuestion].question}</p>
-          <div >
+          <div style={answerContainerStyles}>
           {questions[currentQuestion].options.map((optionData, index) => (
             <p style={answerStyles} key={index} onClick={() => handleAnswerClick(optionData.text)}>
             {optionData.text}
